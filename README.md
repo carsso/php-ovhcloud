@@ -234,8 +234,6 @@ To generate documentation, it's possible to use directly:
 
 Documentation is available in docs/ directory.
 
-How to run tests?
-
 ## Testing
 
 Tests are based on phpunit and inclued in the project.

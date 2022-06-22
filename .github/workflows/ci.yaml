@@ -66,9 +66,11 @@ jobs:
         run: "mkdir -p build/logs"
       - uses: "ramsey/composer-install@v2"
       - name: "Run unit tests"
-        run: "./vendor/bin/phpunit --colors=always --coverage-clover build/logs/clover.xml --coverage-text"
+        run: "./vendor/bin/phpunit --colors=always"
       - name: "Publish coverage report to Codecov"
         uses: "codecov/codecov-action@v2"
+        with:
+          files: ./build/logs/clover.xml
 
   unit-tests:
     name: "Unit Tests"

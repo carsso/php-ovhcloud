@@ -3,7 +3,6 @@ node_modules
 /vendor
 composer.lock
 composer.phar
-coverage.xml
 /phpunit.xml
 /build.properties
 /docs

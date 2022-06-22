@@ -13,17 +13,19 @@
         </testsuite>
     </testsuites>
 
-    <filter>
-        <whitelist>
+    <coverage>
+        <include>
             <directory suffix=".php">src/</directory>
-        </whitelist>
-    </filter>
+        </include>
+
+        <report>
+            <clover outputFile="build/logs/clover.xml" />
+            <html outputDirectory="build/coverage" />
+            <text outputFile="php://stdout" />
+        </report>
+    </coverage>
 
     <logging>
-        <log type="junit" target="build/report.junit.xml"/>
-        <log type="coverage-text" target="php://stdout"/>
-        <log type="coverage-html" target="build/coverage" charset="UTF-8" yui="true" highlight="true"/>
-        <log type="coverage-clover" target="coverage.xml"/>
-        <log type="coverage-clover" target="build/logs/clover.xml"/>
+        <junit outputFile="build/report.junit.xml"/>
     </logging>
 </phpunit>

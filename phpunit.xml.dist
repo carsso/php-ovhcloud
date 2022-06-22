@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" colors="true" bootstrap="tests/bootstrap.php" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
-  <coverage>
-    <include>
-      <directory>src</directory>
-    </include>
-  </coverage>
-  <testsuites>
-    <testsuite name="OVH APIs wrapper">
-      <directory>tests</directory>
-    </testsuite>
-  </testsuites>
-  <php>
-    <env name="ENDPOINT" value=""/>
-    <env name="APP_KEY" value=""/>
-    <env name="APP_SECRET" value=""/>
-    <env name="CONSUMER" value=""/>
-  </php>
+<phpunit
+    bootstrap="./vendor/autoload.php"
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertWarningsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertDeprecationsToExceptions="true"
+>
+    <testsuites>
+        <testsuite name="all">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
+
+    <logging>
+        <log type="junit" target="build/report.junit.xml"/>
+        <log type="coverage-text" target="php://stdout"/>
+        <log type="coverage-html" target="build/coverage" charset="UTF-8" yui="true" highlight="true"/>
+        <log type="coverage-clover" target="coverage.xml"/>
+        <log type="coverage-clover" target="build/logs/clover.xml"/>
+    </logging>
 </phpunit>

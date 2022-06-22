@@ -63,7 +63,6 @@ class Api
         'kimsufi-ca'    => 'https://ca.api.kimsufi.com/1.0',
         'soyoustart-eu' => 'https://eu.api.soyoustart.com/1.0',
         'soyoustart-ca' => 'https://ca.api.soyoustart.com/1.0',
-        'runabove-ca'   => 'https://api.runabove.com/1.0',
     ];
 
     /**

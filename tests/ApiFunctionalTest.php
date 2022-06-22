@@ -258,7 +258,7 @@ class ApiFunctionalTest extends TestCase
      */
     public function testApiGetWithoutAuthentication()
     {
-        $api = new Api(NULL,NULL, $this->endpoint, null, $this->client);
-        $api->get('/hosting/web/moduleList',null,null,false);
+        $api = new Api(null, null, $this->endpoint, null, $this->client);
+        $api->get('/hosting/web/moduleList', null, null, false);
     }
 }

@@ -1,5 +1,5 @@
-Contributing to PHP-OVH
-==========================
+Contributing to PHP-OVHcloud
+============================
 
 This project accepts contributions. In order to contribute, you should
 pay attention to a few things:
@@ -37,8 +37,8 @@ You can submit your patches via GitHub
 Licensing for new files:
 ------------------------
 
-PHP-OVH is licensed under a (modified) BSD license. Anything contributed to
-PHP-OVH must be released under this license.
+PHP-OVHcloud is licensed under a (modified) BSD license. Anything contributed to
+PHP-OVHcloud must be released under this license.
 
 When introducing a new file into the project, please make sure it has a
 copyright header making clear under which license it's being released.
@@ -77,13 +77,6 @@ By making a contribution to this project, I certify that:
 
 (e) I understand and agree that this project and the contribution are
     public and that a record of the contribution (including all
-    personal information I submit with it, including my sign-off) is
+    personal information I submit with it) is
     maintained indefinitely and may be redistributed consistent with
     this project or the open source license(s) involved.
-
-
-then you just add a line saying
-
-    Signed-off-by: Random J Developer <random@developer.org>
-
-using your real name (sorry, no pseudonyms or anonymous contributions.)

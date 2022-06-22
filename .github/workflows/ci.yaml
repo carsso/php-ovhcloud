@@ -73,9 +73,11 @@ jobs:
           files: ./build/logs/clover.xml
 
   unit-tests:
+    needs: coverage
     name: "Unit Tests"
     runs-on: "ubuntu-latest"
     strategy:
+      max-parallel: 1
       fail-fast: false
       matrix:
         php-version: [ '7.4', '8.0', '8.1' ]

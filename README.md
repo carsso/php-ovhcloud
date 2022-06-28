@@ -5,7 +5,11 @@
 [![Codecov Code Coverage](https://img.shields.io/codecov/c/gh/carsso/php-ovhcloud?label=codecov&logo=codecov&style=flat-square)](https://codecov.io/gh/carsso/php-ovhcloud)
 [![Total Downloads](https://img.shields.io/packagist/dt/carsso/ovhcloud.svg?style=flat-square)](https://packagist.org/packages/carsso/ovhcloud)
 
-This PHP package is a lightweight wrapper for OVHcloud APIs. The easiest way to use OVHcloud APIs in your PHP applications.
+This PHP package is a lightweight wrapper for OVHcloud APIs.
+
+The easiest way to use OVHcloud APIs in your PHP applications.
+
+Compatible with PHP 7.4, 8.0, 8.1.
 
 This is a fork of the original OVHcloud project <https://github.com/ovh/php-ovh>.
 

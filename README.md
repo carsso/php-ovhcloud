@@ -229,15 +229,6 @@ They can also be created together if your application is intended to use only yo
 * Create account credentials (all keys at once for your own account only): <https://ca.api.kimsufi.com/createToken/>
 * Community support: api-subscribe@ml.ovh.net
 
-## Building documentation
-
-Documentation is based on phpdocumentor and inclued in the project.
-To generate documentation, it's possible to use directly:
-
-    vendor/bin/phing phpdocs
-
-Documentation is available in docs/ directory.
-
 ## Testing
 
 Tests are based on phpunit and inclued in the project.

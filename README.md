@@ -229,12 +229,33 @@ They can also be created together if your application is intended to use only yo
 * Create account credentials (all keys at once for your own account only): <https://ca.api.kimsufi.com/createToken/>
 * Community support: api-subscribe@ml.ovh.net
 
+## Building documentation
+
+Documentation is based on phpdocumentor and inclued in the project.
+To generate documentation, it's possible to use directly:
+
+    composer phpdoc
+
+Documentation is available in docs/ directory.
+
+## Code check / Linting
+
+Code check is based on PHP CodeSniffer and inclued in the project.
+To check code, it's possible to use directly:
+
+    composer phpcs
+
+Code linting is based on PHP Code Beautifier and Fixer and inclued in the project.
+To lint code, it's possible to use directly:
+
+    composer phpcbf
+
 ## Testing
 
 Tests are based on phpunit and inclued in the project.
 To run functionals tests, you need to provide valid API credentials, that you can provide them via environment:
 
-    APP_KEY=xxx APP_SECRET=xxx CONSUMER=xxx ENDPOINT=xxx vendor/bin/phpunit tests/ApiFunctionalTest.php
+    APP_KEY=xxx APP_SECRET=xxx CONSUMER=xxx ENDPOINT=xxx composer phpunit
 
 ## Contributing
 

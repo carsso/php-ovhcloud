@@ -1,7 +1,7 @@
 # OVHcloud APIs lightweight PHP wrapper
 
 [![Source Code](https://img.shields.io/badge/source-carsso/php--ovhcloud-blue.svg?style=flat-square)](https://github.com/carsso/php-ovhcloud)
-[![Build Status](https://img.shields.io/github/workflow/status/carsso/php-ovhcloud/CI?label=CI&logo=github&style=flat-square)](https://github.com/carsso/php-ovhcloud/actions?query=workflow%3ACI)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/carsso/php-ovhcloud/ci.yaml?label=CI&logo=github&style=flat-square)](https://github.com/carsso/php-ovhcloud/actions?query=workflow%3ACI)
 [![Codecov Code Coverage](https://img.shields.io/codecov/c/gh/carsso/php-ovhcloud?label=codecov&logo=codecov&style=flat-square)](https://codecov.io/gh/carsso/php-ovhcloud)
 [![Total Downloads](https://img.shields.io/packagist/dt/carsso/ovhcloud.svg?style=flat-square)](https://packagist.org/packages/carsso/ovhcloud)
 

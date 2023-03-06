@@ -9,7 +9,7 @@ This PHP package is a lightweight wrapper for OVHcloud APIs.
 
 The easiest way to use OVHcloud APIs in your PHP applications.
 
-Compatible with PHP 7.4, 8.0, 8.1.
+Compatible with PHP 7.4, 8.0, 8.1, 8.2.
 
 This is a fork of the original OVHcloud project <https://github.com/ovh/php-ovh>.
 

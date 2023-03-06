@@ -3,7 +3,10 @@
     "description": "Wrapper for OVHcloud APIs",
     "license": "BSD-3-Clause",
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpdocumentor/shim": true
+        }
     },
     "keywords": [
         "api",
